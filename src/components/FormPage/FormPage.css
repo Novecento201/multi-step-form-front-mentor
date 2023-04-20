@@ -1,0 +1,20 @@
+.container__formPage {
+  width: 65%;
+  max-width: 500px;
+  margin: 2rem;
+  position: relative;
+}
+
+@media (width < 768px) {
+  .container__formPage {
+    max-width: none;
+    width: 90%;
+    margin: 0 1rem;
+    z-index: 100;
+    background-color: #fafbff;
+    padding: 1rem;
+    border-radius: 15px;
+    position: absolute;
+    top: 6rem;
+  }
+}

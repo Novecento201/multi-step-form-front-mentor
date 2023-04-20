@@ -1,0 +1,13 @@
+.end__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.end__title {
+  margin-top: 2rem;
+}
+.end__paragraph {
+  text-align: center;
+}

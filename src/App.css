@@ -1,0 +1,35 @@
+.background {
+  background-color: var(--magnolia);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__app {
+  margin: 0 1rem;
+  width: 100%;
+  max-width: 800px;
+  min-height: 480px;
+  background-color: var(--alabaster);
+  border-radius: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+  display: flex;
+}
+
+@media (width < 768px) {
+  .background {
+    display: block;
+  }
+  .container__app {
+    background-color: transparent;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}

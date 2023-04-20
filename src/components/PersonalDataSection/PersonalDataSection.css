@@ -1,0 +1,26 @@
+.personalData__form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.personalData__label {
+  color: var(--marine-blue);
+  font-size: 13px;
+  letter-spacing: -0.5px;
+  margin-bottom: 5px;
+}
+
+.personalData__input {
+  font-size: 14px;
+  font-family: inherit;
+  padding: 10px;
+  border: 1px solid rgb(150, 153, 171);
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.personalData__input:focus {
+  outline: none !important;
+  border: 2px solid var(--purplish-blue);
+}
